@@ -1,1 +1,14 @@
-
+import java.util.Scanner;
+public class problem1 {
+    public static void main(String[] args){
+        Scanner sow=new Scanner(System.in);
+        System.out.println("Enter input:");
+        int num=sow.nextInt();
+        String st=sow.next();
+        char ch=sow.next().charAt(0);
+        System.out.println(num);
+        System.out.println(st);
+        System.out.println(ch);
+    }
+    
+}
