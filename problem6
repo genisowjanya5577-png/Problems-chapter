@@ -1,1 +1,21 @@
 
+import java.util.Scanner;
+public class problem6 {
+    public static void main(String[] args){
+        Scanner sow=new Scanner(System.in);
+        System.out.println("Enter the value:");
+        int x=sow.nextInt();
+        for(int i=1;i*x<=1000;i++){
+            System.out.println(x*i);
+            
+        }
+
+    }
+    
+}
+//By using while loop the ligic is
+/*int i=1;
+while(x*i<=1000){
+    System.out.println(x*i);
+    x++
+}*/
