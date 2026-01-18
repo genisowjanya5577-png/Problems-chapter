@@ -1,1 +1,16 @@
 
+import java.util.Scanner;
+public class problem7 {
+    public static void main(String[] args){
+        Scanner sow=new Scanner(System.in);
+        String firstname=sow.next();
+        String lastname=sow.next();
+        int n=sow.nextInt();
+        String fullname=firstname+lastname;
+        for( int i=1;i<=n;i++){
+            System.out.println(fullname);
+        }
+
+    }
+    
+}
