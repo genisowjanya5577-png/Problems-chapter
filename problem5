@@ -1,1 +1,15 @@
 
+import java.util.Scanner;
+public class problem5 {
+    public static void main(String[] args){
+        Scanner sow=new Scanner(System.in);
+        System.out.println("Enter the values of X and Y:");
+        int x=sow.nextInt();
+        int y=sow.nextInt();
+        for(int i=0;i<y;i++)
+        {
+            System.out.println(x);
+        }
+    }
+    
+}
