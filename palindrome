@@ -1,1 +1,27 @@
 
+import java.util.Scanner;
+public class Palindrome  {
+    public static void main(String[] args){
+        Scanner sow=new Scanner(System.in);
+        int num=sow.nextInt();
+        int original=num;
+        int sum=0,l;
+        while(num>0){
+            l=num%10;
+            sum=sum*10+l;
+            num=num/10;
+        }
+        if(sum==original){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not palindrome");
+        }
+        while(num>0){
+            l=num%10;
+            sum=sum*10+l;
+            num=num/10;
+        }
+     
+    }
+    
+}
